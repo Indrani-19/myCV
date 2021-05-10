@@ -1,9 +1,7 @@
 body{
     text-align: center;
     margin: 0;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
+    
     
 }
 html{
@@ -25,7 +23,7 @@ img{
     margin-bottom: 0px;
     background-color: #a6d6d6;
     text-align: center;
-    padding: 10px 10px;
+    padding: 80px 0px;
 }
 h2{
     text-align: center;
@@ -46,10 +44,10 @@ hr {
 .name{
     text-align: center;
 font-family:  'Lucida Sans', sans-serif;  
-font-style: inherit;
-flex-direction: row;
-text-shadow: 10px;
-text-decoration: wavy;
+
+
+
+
 
 }
 .subname{
@@ -66,16 +64,7 @@ text-decoration: wavy;
     margin-top: 0;
     margin-bottom: 1rem;
 }
-.container2{
-    display: block;
-    box-sizing: border-box;
-    border-radius: 100%;
- margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-   
-}
+
 h2{
     font-size: 30px;
     margin-bottom: 0px;
@@ -86,10 +75,7 @@ h2{
 
 .container3{
     display: block;
-     margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 300px;
-    margin-inline-end: 300px;
+ 
     margin-top: 10px;
     margin-bottom: 2rem;
    text-align: center;
@@ -97,8 +83,10 @@ h2{
 
 }
 .myskills{
-    display: block;
-    box-sizing: border-box;
+     width: 50%;
+    margin: 50px auto;
+    text-align: left;
+
 }
 .skills{
     color:#da7f8f;
@@ -113,7 +101,7 @@ h2{
     width: 20%;
     float: left;
     margin-right: 20px;
-    margin-left: 60px;
+    
    
 
 }
@@ -124,7 +112,7 @@ h2{
 width: 20%;
     float: right;
       margin-left: 20px;
-      margin-right: 100px;
+     
   
  
 }
@@ -133,30 +121,14 @@ width: 20%;
 h4{
     font-family: Comic Sans MS, cursive, sans-serif;
     color: #11999E;
-    font-size: 1.5rem;
-   margin-top: 30px;
-   margin-bottom: .5rem;
-    font-weight: 500;
-    line-height: 1.2;
-    box-sizing: border-box;
-    margin-block-start: 1.5em;
-    margin-block-end: 1.5em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    text-align: left;
+    
+    
 }
 p{
     font-family: Comic Sans MS, cursive, sans-serif;
     line-height: 2;
- margin-top: 0;
-    margin-bottom: 2rem;
-    box-sizing: border-box;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 300px;
-    margin-inline-end: 300px;
-    width: 50%;
+ 
+    
         text-align: center;
     color: #40514E;
     position: relative;
@@ -178,8 +150,7 @@ p{
 #my-resume{
     display: block;
     text-align: center;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    
     font-family: 'Segoe UI' sans-serif;
 
 }
@@ -195,9 +166,7 @@ p{
     background-color: #11999E;
     padding: 50px 0 10px;
     margin-top: 50px;
-    box-sizing: border-box;
-    display: block;
-    text-align: center;
+    text-align : center;
 }
 .footer-link {
     color: #ffffff;
@@ -223,4 +192,26 @@ p{
 .copyright {
     color: #EAF6F6;
     margin-top: 20px;
+}
+@media (max-width:600px){
+    .bottom-container,
+    .navbar,
+    .container1 {
+        width: 600px;
+    }
+    .container2{
+        margin: 0 auto;
+        width: 600px;
+    }
+    .cloud1 {
+        left: 5%
+    }
+
+    .profile {
+        width: 50%;
+    }
+    .hello {
+        width: 85%;
+        margin: auto;
+    }
 }
